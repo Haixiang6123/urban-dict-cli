@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A command line tool for looking up meaning of English words.",
   "main": "index.js",
+  "bin": {
+    "dict": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/Haixiang6123/urban-dict-cli/issues"
   },
-  "homepage": "https://github.com/Haixiang6123/urban-dict-cli#readme"
+  "homepage": "https://github.com/Haixiang6123/urban-dict-cli#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "chalk": "^2.4.2",
+    "cheerio": "^1.0.0-rc.3",
+    "ora": "^3.4.0"
+  }
 }
