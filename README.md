@@ -1,6 +1,9 @@
 # urban-dict-cli
 A command line tool for looking up meaning of English words.
 
+## Screenshot
+[![asciicast](https://asciinema.org/a/uYQCbApEcKyfH0IwRJLqeNd2L.svg)](https://asciinema.org/a/uYQCbApEcKyfH0IwRJLqeNd2L)
+
 ## Install
 
 ```
