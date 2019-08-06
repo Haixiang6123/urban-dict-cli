@@ -5,7 +5,7 @@ const ora = require('ora')
 const chalk = require('chalk')
 
 const baseUrl = 'https://www.urbandictionary.com/define.php?term='
-const DEFAULT_NUM = 2
+const DEFAULT_NUM = 1
 
 // Validate arguments
 if (!validate()) {
